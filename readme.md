@@ -21,7 +21,7 @@
 - :fire::fire::white_check_mark: July 20 2023: Our new talking head work **[MCNet](https://harlanhong.github.io/publications/mcnet.html)** was accpted by ICCV2023. The code will be released in ten days. You can talk a look at our previous work **[DaGAN](https://harlanhong.github.io/publications/dagan.html)** first.
 
 
-
+## colab version with gradio https://colab.research.google.com/drive/1d1u-EeJexQDwVEslSOPzp4pq4ElxAURB#scrollTo=QNErhzcJ8Ycz
 
 ## :wrench: Dependencies and Installation
 
