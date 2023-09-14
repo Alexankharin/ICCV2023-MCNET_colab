@@ -40,13 +40,13 @@ def inference(img, video):
         os.system("mkdir temp")
 
         ####  Resize the longer edge of the input image
-        max_res = 256
-        width, height = img.size
-        if max(width, height) > max_res:
-            scale = max_res / max(width, height)
-            width = int(scale * width)
-            height = int(scale * height)
-            img = img.resize((width, height), Image.ANTIALIAS)
+    max_res = 256
+    width, height = img.size
+    if max(width, height) > max_res:
+        scale = max_res / max(width, height)
+        width = int(scale * width)
+        height = int(scale * height)
+        img = img.resize((width, height), Image.ANTIALIAS)
 
     img.save("temp/image.jpg", "JPEG")
     # video.save("temp/video.mp4")
